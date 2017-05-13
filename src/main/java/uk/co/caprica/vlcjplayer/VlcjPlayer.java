@@ -74,7 +74,7 @@ public class VlcjPlayer {
     public static void main(String[] args) throws InterruptedException {
         // This will locate LibVLC for the vast majority of cases
         new NativeDiscovery().discover();
-
+        //C:\Program Files\VideoLAN  将VLC安装在默认安装地址下
         setLookAndFeel();
 
         SwingUtilities.invokeLater(new Runnable() {
